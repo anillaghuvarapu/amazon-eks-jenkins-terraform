@@ -50,8 +50,7 @@ pipeline {
             steps {
                 echo '=== Delete the local docker images ==='
                 sh("docker rmi -f anilklaghuvarapu/petclinic-spinnaker-jenkins:latest || :")
-                #sh("docker rmi -f anilklaghuvarapu/petclinic-spinnaker-jenkins:$SHORT_COMMIT || :")
-            }
+                            }
         }
     }
 }
