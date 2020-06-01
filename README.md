@@ -23,7 +23,7 @@ Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) applicatio
 
 
 ```
-git clone https://github.com/aws-samples/amazon-eks-jenkins-terraform
+git clone https://github.com/anillaghuvarapu/amazon-eks-jenkins-terraform
 cd amazon-eks-jenkins-terraform
 ./mvnw package
 java -jar target/*.jar
@@ -38,3 +38,5 @@ Or you can run it from Maven directly using the Spring Boot Maven plugin. If you
 ```
 ./mvnw spring-boot:run
 ```
+
+Reference from AWS
